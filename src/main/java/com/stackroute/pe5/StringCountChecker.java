@@ -35,7 +35,7 @@ public class StringCountChecker
                 //store to map returns true count it is greater than 2
                 if (inputString[i]!="" && count>=2)
                 {
-                    //returns the
+                    //returns the word occured two or more than two times
                     map.put(inputString[i], true);
                 }
                 else if(inputString[i]!="")
